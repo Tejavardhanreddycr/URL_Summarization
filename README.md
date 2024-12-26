@@ -69,7 +69,7 @@ text-summarization/
 ├── docs/                  # Documentation
 ├── .env.example          # Example environment variables
 ├── .gitignore            # Git ignore file
-└── README.md             # Project documentation
+-   README.md             # Project documentation
 ```
 
 ## Requirements
@@ -191,24 +191,6 @@ isort .
 flake8
 ```
 
-### Pre-commit Hooks
-
-Install pre-commit hooks:
-```bash
-pre-commit install
-```
-
-## Testing
-
-Run tests using pytest:
-```bash
-pytest
-```
-
-Run with coverage:
-```bash
-pytest --cov=.
-```
 
 ## Deployment
 
@@ -227,11 +209,12 @@ pytest --cov=.
 ### Cloud Deployment
 
 Deployment guides available for:
-- AWS Elastic Beanstalk
-- Google Cloud Run
-- Heroku
+- AWS 
+- Google Cloud 
+- Azure
+- IBM cloud
 
-See [deployment documentation](./docs/deployment.md) for details.
+See official deployment documentation for details.
 
 ## Contributing
 
